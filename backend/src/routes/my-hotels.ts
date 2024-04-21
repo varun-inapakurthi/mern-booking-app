@@ -4,6 +4,7 @@ import cloudinary from 'cloudinary';
 import verifyToken from '../middleware/auth';
 import { body } from 'express-validator';
 import { HotelType } from '../shared/types';
+import Hotel from '../models/hotel';
 
 const router = express.Router();
 
