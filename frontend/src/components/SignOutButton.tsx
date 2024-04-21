@@ -24,6 +24,6 @@ export default function SignOutButton() {
     mutation.mutate()
   }
   return (
-    <button onClick={handleClick} className='text-blue-600 px-3 font-bold bg-white hover:bg-grey-100'>Sign Out</button>
+    <button onClick={handleClick} className='text-blue-600 px-3 font-bold bg-white hover:bg-gray-100'>Sign Out</button>
   )
 }

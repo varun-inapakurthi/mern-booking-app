@@ -47,7 +47,7 @@ export default function Register() {
     <form className='flex flex-col gap-5' onSubmit={onSubmit}>
       <h2 className='text-3xl font-bold'>Create an account</h2>
       <div className='flex flex-col md:flex-row gap-5 '>
-        <label className='text-grey-700 text-sm font-bold flex-1'>
+        <label className='text-gray-700 text-sm font-bold flex-1'>
           First Name
           <input
             className='border rounded w-full py-1 px-2 font-normal'
@@ -61,7 +61,7 @@ export default function Register() {
             </span>
           }
         </label>
-        <label className='text-grey-700 text-sm font-bold flex-1'>
+        <label className='text-gray-700 text-sm font-bold flex-1'>
           Last Name
           <input
             className='border rounded w-full py-1 px-2 font-normal'
@@ -76,7 +76,7 @@ export default function Register() {
           }
         </label>
       </div>
-      <label className='text-grey-700 text-sm font-bold flex-1'>
+      <label className='text-gray-700 text-sm font-bold flex-1'>
         Email
         <input
           type='email'
@@ -91,7 +91,7 @@ export default function Register() {
             </span>
           }
       </label>
-      <label className='text-grey-700 text-sm font-bold flex-1'>
+      <label className='text-gray-700 text-sm font-bold flex-1'>
         Password
         <input
           type='password'
@@ -112,7 +112,7 @@ export default function Register() {
             </span>
           }
       </label>
-      <label className='text-grey-700 text-sm font-bold flex-1'>
+      <label className='text-gray-700 text-sm font-bold flex-1'>
         Confirm Password
         <input
           type='password'
